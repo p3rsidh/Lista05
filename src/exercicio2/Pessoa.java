@@ -2,33 +2,17 @@ package exercicio2;
 
 import java.util.Scanner;
 
-public class Pessoa {
+public class Pessoa{
     Scanner scan = new Scanner(System.in);
     String nome;
     float idade , peso , altura ;
 
 
-
-    public Pessoa() {
+    public Pessoa(String nome, float altura, float idade, float peso) {
         this.nome = "nome";
         this.idade = 0;
         this.peso = 0;
         this.altura = 0;
-    }
-
-    public void construirPessoa(){
-        System.out.println("Vamos construir uma pessoa");
-        System.out.println("   (o.o)    " +
-                           "\n  /(  /)" +
-                           "\n   _| |_     ");
-        System.out.println("Digite o nome da pessoa:");
-        nome = scan.next();
-        System.out.println("Digite a idade desta pessoa");
-        idade = scan.nextFloat();
-        System.out.println("Digite o peso (se não quiser, coloque 0)");
-        peso = scan.nextFloat();
-        System.out.println("Digite a altura");
-        altura = scan.nextFloat();
 
     }
 
