@@ -22,7 +22,8 @@ public void mostrarBola(){
     System.out.println("A circunferencia dela e  " +circunferencia);
     System.out.println("Com velociade de " +velocidade);
     System.out.println("___________________________________________");
-}void alterarBola(){
+}
+public void alterarBola(){
         System.out.println("Deseja uma bola de que cor?");
         cor = scan.next();
         System.out.println("Deseja uma bola de que marca?");
@@ -36,5 +37,13 @@ public void mostrarBola(){
         mostrarBola();
 
     }
-
+    public String mostrarCor(String cor){
+        return cor;
+    }
+    public void trocaCor(String cor){
+        System.out.println("Qual cor deseja usar? ");
+        cor = scan.next();
+        System.out.println("A nova cor : ");
+        mostrarCor(cor);
+    }
 }
