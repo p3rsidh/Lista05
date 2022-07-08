@@ -6,13 +6,17 @@ public class ContaCorrente {
     Scanner scan = new Scanner(System.in);
     String numeroConta, nomeCorrentista;
     float saldo;
-    ContaCorrente(String numeroConta, String nomeCorrentista, float saldo){
+    ContaCorrente(String numeroConta, String nomeCorrentista){
         this.numeroConta = numeroConta;
         this.nomeCorrentista = nomeCorrentista;
         this.saldo = 0;
 
     }
 
+    public void mostrarConta(){
+        System.out.println("Na conta de " +nomeCorrentista +" de numero " +numeroConta
+        +" existe o saldo de " +saldo);
+    }
     public void depositoConta(){
         System.out.println("Qual o valor que deseja depositar? ");
         float somaSaldo = scan.nextFloat();
