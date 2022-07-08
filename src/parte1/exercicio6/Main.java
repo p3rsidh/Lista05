@@ -1,6 +1,4 @@
-package exercicio6;
-
-import exercicio5.Quadrado;
+package parte1.exercicio6;
 
 import java.util.Scanner;
 

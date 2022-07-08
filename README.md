@@ -21,3 +21,17 @@ Cada classe tem sua main que cria e executa o objeto.
    Métodos: Mudar valor dos lados, Retornar valor dos lados, calcular Área e calcular Perímetro;
    Como entregar os exercícios:
    Documentar a entrega marcando no classroom e adicionar o link do repositório do GitHub contendo o código do desafio e a descrição do projeto no arquivo Readme.md, ou seja, você irá criar um repositório para essa aula e mandar o link dele, com os exercícios finalizados, via classroom.
+-----------------------------------------------------------------------------------------------------------------------------
+PARTE 2
+
+LISTA DE EXERCÍCIOS 005 - Entregar - Continuação.
+Cada classe tem sua main que cria e executa o objeto.
+Se precisar de mais atributos para fazer os métodos, podem criar!
+
+1Classe Jardinagem: Entidades nomeJardim, qtdMetros, qtdPlantas, qtdMetrosGrama, kilosAdubo, valorAdubo, valorMetroGrama, valorConteGrama.
+métodos: usarAdubo (a cada 2 metros de grama usa-se 100 gramas de adubo - calcule quanto de adubo usar). precoAdubo ( resultado do usarAdubo  * valorAdubo) precoCorteGrama (valorConteGrama = qtdMetrosGrama * valorMetroGrama)).
+
+2. Classe Caixa: Crie uma classe que modele um caixa, que contém saldo - no construtor começa com R $1000,00, crédito, débito. Crie método
+   Métodos: crédito que entra dinheiro e débito que sai dinheiro. - no main tenha laço perguntando quantos lançamentos deseja e sempre pergunte se crédito ou débito e no final fala o saldo final.
+
+

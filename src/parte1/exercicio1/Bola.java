@@ -1,8 +1,6 @@
-package exercicio1;
+package parte1.exercicio1;
 
-import java.util.Random;
 import java.util.Scanner;
-import java.util.SplittableRandom;
 
 public class Bola {
     Scanner scan = new Scanner(System.in);
